@@ -1,0 +1,7 @@
+.mypy_cache
+.ruff_cache
+.venv
+__pycache__
+*.csv
+.pytest_cache
+.DS_Store

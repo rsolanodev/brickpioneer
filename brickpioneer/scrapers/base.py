@@ -18,8 +18,8 @@ class BaseScraper:
     Base class for scraping content related to a specific province.
     """
 
-    province: str = attrs.field()
-    province_display: str = attrs.field()
+    province: str
+    province_display: str
 
     @property
     @abc.abstractmethod
